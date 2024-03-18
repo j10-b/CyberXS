@@ -52,7 +52,7 @@ rm "$folder/subdomains_tmp.txt"
 
 # Running httpx to find live subdomains
 echo "Finding live subdomains..."
-httpx -l "$folder/subdomains.txt" -o "$folder/live_subdomains.txt"
+httpx-toolkit -l "$folder/subdomains.txt" -o "$folder/live_subdomains.txt"
 
 # Running gau to find endpoints
 echo "Finding endpoints with gau..."
